@@ -12,7 +12,8 @@ const blogsApi = require("./routes/blogs.route.js")
 
 app.use(cors(
     {
-        origin:["http://localhost:5173"],
+        // origin:["http://localhost:5173"],
+        origin:["https://blog-admin-35c9.onrender.com"],
         credentials:true
     }
 ));
